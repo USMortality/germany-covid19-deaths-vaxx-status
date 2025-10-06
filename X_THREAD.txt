@@ -1,0 +1,132 @@
+═══════════════════════════════════════════════════════════════
+X THREAD - GERMANY COVID VACCINE DATA ANALYSIS
+═══════════════════════════════════════════════════════════════
+
+📸 IMAGES TO ATTACH:
+• TWEET 1: out/covid_death_rates_range.png 🔥 MOST STRIKING - shows 3x death rate (0.68 vs 2.13) with error bars showing massive uncertainty range
+• TWEET 2: out/covid_deaths_grouped.png - huge gray "unknown" bar shows 76% missing data (data quality catastrophe)
+• TWEET 5: out/covid_ve_by_unknown_pct.png - sensitivity curve showing how efficacy changes based on assumptions
+• TWEET 9: Excess mortality chart from mortality.watch (optional - screenshot from user)
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 1/11
+🚨 BREAKING: German govt data shows vaccinated died at 3x the rate of unvaccinated.
+
+Vaccinated: 2.13 per 1,000
+Unvaccinated: 0.68 per 1,000
+
+[IMAGE: Death rates with error bars showing massive uncertainty]
+
+But there's a problem...
+
+Thread 🧵👇
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 2/11
+76% of deaths have UNKNOWN vaccination status.
+
+[IMAGE: See the massive gray "unknown" bar - 114,709 unknowns vs 36,000 knowns]
+
+They imposed mandates, lockdowns & fired workers based on data where 3 out of 4 deaths were... unknowns.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 3/11
+The 3x death rate assumes unknowns follow the same pattern as knowns (8.3% unvaccinated).
+
+This is the standard statistical approach for missing data—but with 76% unknown, ANY conclusion is highly uncertain.
+
+Here's why it matters...
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 4/11
+But here's the problem: this ENTIRELY depends on assumptions about the 114,709 unknowns.
+
+Different plausible assumptions yield:
+• -212% efficacy (unknowns = knowns)
+• -22% efficacy (unknowns = population)
+• +58% efficacy (50/50 split)
+• +92% efficacy (all unknowns unvax)
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 5/11
+The sensitivity is EXTREME. Here's what efficacy looks like across all possible assumptions:
+
+[ATTACH IMAGE: covid_ve_by_unknown_pct.png]
+
+The blue line (8.3% = known dist.) shows -212% efficacy.
+The purple line (22.1% = population) shows -22% efficacy.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 6/11
+Even IF we knew the vaccination status, there's a critical confounding problem:
+
+NO AGE STRATIFICATION.
+
+Age is the strongest predictor of COVID mortality. Elderly were vaccinated first. Without age adjustment, comparing crude rates is meaningless.
+
+This is Epidemiology 101.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 7/11
+What data would be needed for a proper analysis?
+
+🔴 CRITICAL:
+• <5% unknown status (not 76%!)
+• Age-stratified deaths (80+ vs 20-29, etc.)
+
+🟡 HIGH PRIORITY:
+• Monthly data (not annual)
+• Doses + timing
+• Comorbidities
+
+Currently we have NONE of this.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 8/11
+The known case distribution (8.3% unvax, 91.7% vax) shows vaccinated were heavily over-represented in deaths.
+
+But without age data, we can't say why. Were vaccinated people older? Sicker?
+
+This is why age stratification is critical—and Germany hasn't published it.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 9/11
+Context: Age-standardized excess mortality in Germany:
+• 2020 (pre-vax): -0.6% (BELOW baseline)
+• 2021 (vax rollout): +1.14%
+• 2022 (77.9% vaxed): +4.70% (PEAK)
+• 2023: +0.98%
+• 2024: -1.4%
+
+Excess deaths peaked DURING mass vaccination, not before.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 10/11
+Let that sink in: Lockdowns. Mask mandates. Vaccine passports. Job terminations.
+
+All based on data where they didn't even know vaccination status for 3 out of 4 deaths.
+
+76% unknown isn't a "data gap"—it's making life-altering policy decisions in the dark.
+
+═══════════════════════════════════════════════════════════════
+
+TWEET 11/11
+📊 Source: BMG (via AfD inquiry) | @NZZ
+
+📈 Full analysis + R code:
+github.com/USMortality/germany-covid19-deaths-vaxx-status
+
+Analysis: @USMortality
+Tools: Claude Sonnet 4.5 | CC BY 4.0
+
+═══════════════════════════════════════════════════════════════
